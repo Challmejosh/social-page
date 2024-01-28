@@ -1,0 +1,85 @@
+
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    box-sizing: border-box;
+    margin: 1rem;
+    font-family: /*url('https://fonts.google.com/specimen/Inter')*/ 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+main{
+    background: hsl(0, 0%, 20%);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    position: relative;
+    top: 6rem;
+}
+img{
+    /*position: relative;
+    left: 3rem;*/
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 9999px;
+}
+main h1,p{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+.par{
+    color:  hsl(75, 94%, 57%);
+}
+nav a{
+    display: block;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    border: none;
+    padding: 1rem;
+    background: hsl(0, 0%, 12%);
+    text-align: center;
+    border-radius: 0.5rem;
+}
+nav a:hover{
+    background:  hsl(75, 94%, 57%);
+}
+footer{
+    position: relative;
+    top: 6.5rem;
+    padding: 1rem;
+}
+@media screen and (orientation: landscape){
+    main{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 30rem;
+    }
+    img{
+        /*position: relative;
+        left: 3rem;*/
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 9999px;
+    }                                                       
+}
+@media (max-width: 375px) and (orientation: portrait){
+    main{
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        max-width: 30rem;
+        
+    }
+    img{
+        /*position: relative;
+        left: 3rem;*/
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 9999px;
+    }
+}
